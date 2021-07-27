@@ -1,0 +1,51 @@
+#holder{
+    width: 1200px;
+    height: auto !important;
+    margin: 0 auto;
+}
+#header{
+    width: 1200px;
+    height: 200px;
+    background-color: green;
+}
+#content{
+    width: 1200px;
+    height: 500px;
+}
+/* .contentBoxA{
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+    float: left;
+}
+.contentBoxB{
+    width: 800px;
+    height: 500px;
+    float: right;
+}
+.contentBoxB1{
+    width: 400px;
+    height: 500px;
+    background-color: red;
+    float: left;
+}
+.contentBoxB2{
+    width: 400px;
+    height: 500px;
+    background-color: chocolate;
+    float: right;
+} */
+
+.box{
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+
+
+
+#footer{
+    width: 1200px;
+    height: 200px;
+    background-color: grey;
+}
