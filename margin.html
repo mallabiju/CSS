@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Working with Margin</title>
+    <style>
+        #boxWrap{
+            width: 1000px;
+            height: 480px;
+            margin: 0 auto 50px auto;
+        }
+        .box1{
+            width: 580px;
+            height: 480px;
+            background-color: red;
+            float: left;
+            margin-right: 20px;
+        }
+        .box2{
+            width: 400px;
+            height: 480px;
+            background-color: blue;
+            float: right;
+        }
+        #boxWrap2{
+            width: 1000px;
+            height: 480px;
+            margin: 20px auto 0 auto; /* TRBL */
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="boxWrap">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <div id="boxWrap2">
+    </div>
+</body>
+</html>
