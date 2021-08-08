@@ -1,0 +1,24 @@
+#boxwrapper {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
+#header {
+  width: 1200px;
+  height: 100px;
+  background-color: aqua;
+}
+#content {
+  width: 1200px;
+  height: 400px;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+#footer {
+    width: 1200px;
+    height: 300px;
+    background-color: aqua;
+  }
